@@ -1,0 +1,38 @@
+img {
+    height: 100px;
+    width:auto;
+}
+.large-image > * {
+    height: 100vh;
+    width: 100vw; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+button {
+    border: 1px solid rgba(255, 255, 255, 0.679);
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.135);
+    color: rgba(255, 255, 255, 0.679);
+    padding: 6px 10px;
+    z-index: 100;
+    cursor: pointer;
+}
+button#next {
+    position: absolute;
+    top: 50vh;
+    right: 5vw;
+}
+
+button#prev{
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+}
+
+#thumb-container{
+    position: absolute;
+    margin-top: -95vh;
+    margin-left: 15vw;
+}
