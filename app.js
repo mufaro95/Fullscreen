@@ -83,14 +83,6 @@ function selectNextImage(direction) {
     console.log('selectNextImage was trigger')
     updateDisplayImage(direction)
 
-    // let currentImageIndex = index+1;
-    // // currentImageIndex += 1;
-
-    // if (currentImageIndex >= images.length) currentImageIndex = 0
-    // if (currentImageIndex < 0) currentImageIndex = images.length - 1
-    // console.log(currentImageIndex)
-
-
 }
 
 
